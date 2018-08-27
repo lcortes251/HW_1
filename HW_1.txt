@@ -1,0 +1,28 @@
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[R.app GUI 1.70 (7543) x86_64-apple-darwin15.6.0]
+
+[Workspace restored from /Users/Laura/.RData]
+[History restored from /Users/Laura/.Rapp.history]
+
+> #The KM survival time tells you the probability of survival over time. The y-axis has the cumulative survival rate which takes into account the people that remain at risk, and the x-axis is time passed (since start of study for example). Thus the y-intercept can tell you the time as the cumulative survival changes.  The x-intercept can tell you the cumulative survival rate within a specified time. 
+> 
+> #You need to use survObj to tell the program the response variable (the follow-up time and whether there was death of each patient, eg censorship and its direction). 
+> 
