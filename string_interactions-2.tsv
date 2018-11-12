@@ -1,0 +1,5 @@
+#node1	node2	combined_score
+Dnmt3a	Dnmt3l	0.959
+Dnmt3b	Dnmt3l	0.958
+Dnmt3b	Dnmt3a	0.955
+Esr1	Cyp19a1	0.917
